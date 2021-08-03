@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import { Nav,Navbar, NavbarBrand, Jumbotron ,NavbarToggler, Collapse, NavItem,} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Header extends Component
 {
@@ -29,8 +30,8 @@ class Header extends Component
                         <div className="row">
                             <div className="col text-center">
                             <h1>Hello, I'm Sultan Feto </h1> {''}
-                           <h2>I 'm Full-Stack Web Developer</h2> {''} 
-                           <h3><a href="portfolio.html">View My Work</a></h3>{''}
+                                <h2>I 'm Full-Stack Web Developer</h2> {''}
+                                <h2><Link to='/portfolio'>View My Work</Link></h2>
                             </div>
                         </div>
                     </div>
@@ -56,7 +57,7 @@ class Header extends Component
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/portfolio">
-                                        <i className="fas fa-briefcasea" /> Portfolio
+                                        <i className="fa fa-briefcase" /> Portfolio
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

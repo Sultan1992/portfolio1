@@ -18,13 +18,16 @@ function Footer(props) {
                     <div className="col-6 col-sm-3 text-center">
                         <h5>Social</h5>
                         <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/sultan.minze"><i className="fa fa-facebook" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a> 
+                        <a className="btn btn-social-icon btn-twitter" href="https://www.linkedin.com/in/sultan-feto-811685143/"><i className="fa fa-linkedin" /></a>{' '}
+                        <a className="btn btn-social-icon btn-google" href="https://codepen.io/minae/pen/xxEaeNQ?editors=1000"><i className="fa fa-codepen" /></a> 
                     </div>
                     <div className="col-sm-4 text-center">
                         <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 702-835-3125</a><br />
                         <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> sultanfeto@gmail.com</a>
+                        
                     </div>
+                    &copy; Copyright 2021-<script>document.write(new Date().getFullYear())</script>, Sultan Feto,All rights reserved
+
                 </div>
             </div>
         </footer>

@@ -5,7 +5,7 @@ import Home from './Home';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Contact from './contact';
 import About from './About';
-import portfolio from './portfolio'
+import Portfolio from './portfolio'
 
 class Main extends Component {
    
@@ -15,16 +15,16 @@ class Main extends Component {
         const HomePage = () =>
         {
             return (
-                <Home />
+                <home />
             );
         }
         return (
             <div>
                 <Header />
                 <Switch>
-                    <Route path='/home' component={HomePage} />
+                    <Route path='/home' component={Home} />
                     <Route exact path='/about' component={About} />
-                    <Route exact path='/portfolio' component={portfolio} />
+                    <Route exact path='/portfolio' component={Portfolio} />
                     <Route exact path='/contactus' component={Contact} />
                     <Redirect to='/home' />
                 </Switch>

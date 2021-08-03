@@ -1,8 +1,9 @@
 
 import React from 'react';
 import About from './About';
-import Contact from './contact'
-import portfolio from './portfolio'
+import  Portfolio from './portfolio.js';
+import Contact from './contact';
+
 
 
 function Home(props)
@@ -10,8 +11,11 @@ function Home(props)
   
         return (
             <div className="container">
+                <a href="#About"></a>
+                <a href="#portfolio"></a>
                 <About />
-                <portfolio/>
+                < Portfolio/>
+             
                 <Contact />
 
             </div>

@@ -17,7 +17,8 @@ class About extends Component
     }
     render() {
         return (
-            <div className="about">
+          <div className="about">
+            <hr/>
                 <div class="col text-center">
                  <h3 class="heading">About</h3>
                     <div class="heading-underline"></div>
@@ -26,7 +27,7 @@ class About extends Component
                     
         <div class=" col-6  text-center">
       <h3>Fast</h3>
-      <p>Fast load times and lag free interactionis my highest priority.</p>
+                <p>Fast load times and lag free interaction is my highest priority.</p>
     </div>
     <div class="col ">
       <h3>Intuitive</h3>
@@ -48,13 +49,33 @@ class About extends Component
                         <div className="image">
                         <img src={myPhoto} alt="photo" />
                     </div>
-                    </div>
+              </div>
+              
                     <div className="col -6">
-                        <h1>Who is this guy?</h1>
-                        A web developer is a programmer who specializes in, or
-                        is specifically engaged in, the development of World Wide Web applications using 
-                       
-                    </div>
+                <h1>Who am I?</h1>
+                 I am a Full stack web developer currently reside In <a href="https://www.google.com/maps/place/Minn" target="_blank">Minnesota,USA</a> 
+                <br /> I love coding,designing website and make it functional. <br />
+                </div>
+                <div className="col -6">
+                <h1>Skills</h1>
+                <p>On scale of 1-5, I rate my programming knowledge as follows</p>
+                <h1>Frond end</h1>
+                Html/Css : <strong>5</strong> <br/>
+                Javascript:  <strong>4</strong>  <br/>
+                ReactJs/Redux:  <strong>3</strong>   <br/>
+                React native:  <strong>3</strong> <br />
+                Anguler:  <strong>2</strong>   <br />
+                Vuejs :  <strong>2</strong>   <br/>
+
+                <h1>Back end</h1>
+                Php: <strong>4</strong> <br />
+                Mysql: <strong>4</strong>  <br />
+                NodeJs: <strong>2</strong> <br />
+                MangoDb:  <strong>2</strong>  <br />
+                <h1>Others</h1>  
+                Shopify: <strong>4</strong> <br />
+                Wordpress: <strong>3</strong>  <br />
+               </div>
      
                 </div>
                 
